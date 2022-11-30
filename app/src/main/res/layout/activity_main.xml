@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="335dp"
-        android:layout_height="108dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="323dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="64dp"
         android:fontFamily="cursive"
-        android:text="Happy Birthday Dino!"
+        android:text="Happy Birthday DinoCoso!"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#CD9C27B0"
@@ -32,6 +32,16 @@
         android:text="from your Creator"
         android:textAlignment="viewEnd"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/androidparty"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
